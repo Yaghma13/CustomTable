@@ -1,0 +1,14 @@
+.deleteField {
+    opacity: 0.2;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteField:hover {
+    opacity: 1;
+    cursor: pointer;
+}

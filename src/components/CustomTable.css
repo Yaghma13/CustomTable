@@ -1,0 +1,27 @@
+.addRow {
+    opacity: 0.2;
+}
+
+.plusIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 9px;
+}
+
+.plusIcon .addRow:hover {
+    margin-right: -4px;
+    font-size: 20px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.delete {
+    opacity: 0.2;
+}
+
+.delete:hover {
+    opacity: 1;
+    cursor: pointer;
+}
